@@ -164,9 +164,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Launch Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
 # Enable i3-gaps capability
 for_window [class="^.*"] border pixel 2
 
@@ -177,3 +174,13 @@ gaps outer 25
 # Smart Borders
 smart_borders on
 
+# Launch Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Execute Apps
+exec --no-startup-id nm-applet
+exec mpd && exec mpc pause
+exec nitrogen --restore
+exec dunst &
+exec xrandr --output VGA-1 --primary
+exec compton -CGb

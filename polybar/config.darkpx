@@ -153,7 +153,7 @@ format = <label-state> <label-mode>
 ;ws-icon-3 = music;
 ;ws-icon-4 = irssi;
 ;ws-icon-default = 
-ws-icon-default = x
+;ws-icon-default = x
 
 inline-mode = true
 
@@ -221,6 +221,14 @@ pin-workspaces = true
 wrapping-scroll = true
 ;reverse-scroll = false
 ;enable-scroll = false
+
+ws-icon-0=1;<EF><89><A9>
+ws-icon-1=2;<EF><8E><92>
+ws-icon-2=3;<EF><87><A8>
+ws-icon-3=4;<EF><84><A0>
+ws-icon-4=5;<EF><85><9B>
+ws-icon-5=6;<EF><80><88>
+ws-icon-default=<EF><81><B4>
 
 format = <label-state> <label-mode>
 
@@ -421,18 +429,15 @@ label-close = 
 label-separator = /
 label-separator-margin = 1
 
-menu-0-0 = Terminate WM
+menu-0-0 = Reboot
 menu-0-0-foreground = ${colors.accent}
-menu-0-0-exec = bspc quit -1
-menu-0-1 = Reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = Power off
 menu-0-1-foreground = ${colors.accent}
-menu-0-1-exec = menu-open-1
-menu-0-2 = Power off
+menu-0-1-exec = menu-open-2
+menu-0-2 = Lock
 menu-0-2-foreground = ${colors.accent}
-menu-0-2-exec = menu-open-2
-menu-0-3 = Lock
-menu-0-3-foreground = ${colors.accent}
-menu-0-3-exec = lockscreen
+menu-0-2-exec = lockscreen
 
 menu-1-0 = Cancel
 menu-1-0-foreground = ${colors.accent}
