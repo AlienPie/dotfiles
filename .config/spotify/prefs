@@ -1,0 +1,9 @@
+autologin.canonical_username="pyro_professor"
+autologin.blob="ZOp0QGmvwX+aAOcrwU77WFaEJmBh69vwJ0C7ZfS1uNv2IdmsNcjqrH2FR+ZviCwF1O5uNgfqPfzMZwXbSkns44uBq7OkRxW6WUzashzy1qf2VS8cSlSIFX1N2t0lxmGf+N7IiTXppplGPIdMC/qNoTYijrdCwwKl0R0qD47Ik6aSbHrXbJiWI8wb0P5EB9LxMio1E8C5psyQVdoC/ehqlJwz4LVvhWWtkcySuGqrokQ="
+autologin.username="pyro_professor"
+autologin.saved_credentials="{\"pyro_professor\":[\"pyro_professor\",\"ZOp0QGmvwX+aAOcrwU77WFaEJmBh69vwJ0C7ZfS1uNv2IdmsNcjqrH2FR+ZviCwF1O5uNgfqPfzMZwXbSkns44uBq7OkRxW6WUzashzy1qf2VS8cSlSIFX1N2t0lxmGf+N7IiTXppplGPIdMC/qNoTYijrdCwwKl0R0qD47Ik6aSbHrXbJiWI8wb0P5EB9LxMio1E8C5psyQVdoC/ehqlJwz4LVvhWWtkcySuGqrokQ=\"]}"
+core.clock_delta=0
+storage.last-location="/home/vagrant/.cache/spotify/Storage"
+app.autostart-configured=true
+app.last-launched-version="1.0.80.480.g51b03ac3"
+app.autostart-mode=""
